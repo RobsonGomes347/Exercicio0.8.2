@@ -1,0 +1,38 @@
+
+html{ padding: 200px;
+}body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{border: solid;
+    color: black;
+    height: 20px;
+    width: 0;
+
+}
+.box1 .minibox{
+position: absolute;
+top: -20px; 
+left: -5px;
+
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 5px;
+    background-color: gray;
+
+}
+.box1{
+    position: relative;
+    border: solid;
+    border-radius: 15px;
+    position: relative;
+    background-color: tan;
+    padding: 20px;
+
+   
+
+}
